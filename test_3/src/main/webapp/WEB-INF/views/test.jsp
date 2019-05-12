@@ -45,33 +45,28 @@
      </optgroup>
 
      
-
      <optgroup label="광역시">
 
        <option value="pusan">부산</option>
-
        <option value="daegu">대구</option>
-
        <option value="kwangju">광주</option>
-
        <option value="incheon">인천</option>
-
        <option value="daejeon">대전</option>
 
       </optgroup>
 
      </select>
 
-   <br>
-   <br>
+          <br>
+          <br>
 
-    <label for="male">성별</label><br> <input type="radio"
-
-    name="chk" id="male" value="남자">남자 <input type="radio"
-
-    name="chk" value="여자">여자 <br> <br> <label
-
-    for="pic">사진</label> <input type="button" id="pic" value="파일 선택">
+    <label for="male">성별</label><br> 
+    <input type="radio" name="chk" id="male" value="남자">남자 
+    <input type="radio" name="chk" value="여자">여자 
+    <br> 
+    <br> 
+    <label for="pic">사진</label> 
+    <input type="button" id="pic" value="파일 선택">
 
    <label for="pic">선택된 파일 없음</label> <br> <br> <label
 

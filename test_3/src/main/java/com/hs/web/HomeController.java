@@ -61,7 +61,7 @@ public class HomeController {
         
         
         
-        //연습 
+        /* 구구단 연습 
         for(int i= 1 ; i <10 ; i ++)
         {
         	for(int j = 1; j < 10 ; j ++)
@@ -72,7 +72,7 @@ public class HomeController {
         	
         	System.out.println();
         }
-        
+        */
         
         
         
