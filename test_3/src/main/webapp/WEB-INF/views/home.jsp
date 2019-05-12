@@ -45,7 +45,6 @@
      </optgroup>
 
      
-
      <optgroup label="광역시">
 
        <option value="pusan">부산</option>
@@ -63,9 +62,6 @@
      </select>
 
    <br>
-
-   
-
    <br>
 
     <label for="male">성별</label><br> <input type="radio"
