@@ -14,18 +14,19 @@
 
    <label for="uid">아이디&emsp;</label> 
    <input type="text" id="uid" name="id" maxlength="12" size="12" title="아이디 필수입력"> 
-    <input type="button" value="중복확인">
+   <input type="button" value="중복확인">
 
-   <br> <br> <label for="upw">비밀번호</label> <input type="password" id="upw" name="pass" maxlength="12" size="12"> <br>
+   <br> 
+   <br> 
+   
+   <label for="upw">비밀번호</label> <input type="password" id="upw" name="pass" maxlength="12" size="12"> <br>
 
-   <br> <label for="n">이메일</label> <input type="text" id="n"
-
-    name="nid" maxlength="12" size="12" title="사용자님의 이메일을 입력해주세요"> 
-    <label for="n">@</label> 
-    <input type="text" id="n" name="nid" maxlength="12" size="12"
-
-    title="사용자님의 이메일을 입력해주세요" > <br>
-
+   <br> 
+   
+   <label for="n">이메일</label> <input type="text" id="n" name="nid" maxlength="12" size="12" title="사용자님의 이메일을 입력해주세요"> 
+   <label for="n">@</label> 
+   <input type="text" id="n" name="nid" maxlength="12" size="12"  title="사용자님의 이메일을 입력해주세요" > 
+   <br>
    <br>
 
    <label for="userAddr">주소</label>

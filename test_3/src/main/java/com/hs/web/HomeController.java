@@ -26,8 +26,6 @@ public class HomeController {
 	@Autowired
 	private webService webService;
 
-	
-	
     private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
     
     /**
@@ -43,12 +41,13 @@ public class HomeController {
         String formattedDate = dateFormat.format(date);
         
         List<MemberVO> memberList = null;
-        try {
-        	memberList  =  webService.getData(null);
-		} catch (Exception e) {
+           
+           try {
+        	      memberList  =  webService.getData(null);
+		       } catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}
+		    }
         
         MemberVO  MemberVo = memberList.get(0);            
         
@@ -59,9 +58,7 @@ public class HomeController {
         model.addAttribute("bb", memberList );
         model.addAttribute("serverTime", formattedDate );
         
-        
-        
-        /* 구구단 연습 
+         /* 구구단 연습 
         for(int i= 1 ; i <10 ; i ++)
         {
         	for(int j = 1; j < 10 ; j ++)
@@ -74,9 +71,7 @@ public class HomeController {
         }
         */
         
-        
-        
-        return "home";
+          return "home";
     }
     
     /**
@@ -91,7 +86,6 @@ public class HomeController {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-    	
     	
     	
     	return "test";
