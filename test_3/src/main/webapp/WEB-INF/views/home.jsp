@@ -11,7 +11,6 @@
 
    <legend>회원정보</legend>
 
-
    <label for="uid">아이디&emsp;</label> 
    <input type="text" id="uid" name="id" maxlength="12" size="12" title="아이디 필수입력"> 
    <input type="button" value="중복확인">
